@@ -1,0 +1,38 @@
+[{
+    "ProjectName":"Fitness Tracker",
+    "ProjectDescription":"Created a web-based assistant for tracking fitness based on cardio,Resistances Excercises",
+    "ProjectDescription2":"Implemented data model and login module using jQuery, Bootstrap, Node.js, Express.js, MongoDB, Mongoose ",
+    "ProjectDate":"May 2020"
+},
+{
+    "ProjectName":"MyRealtor – Web Application",
+    "ProjectDescription":"Created a CRM system for a realtor to digitalize personalized management of sale and rent targets",
+    "ProjectDescription2":"Implemented data model and login module using jQuery, Bootstrap, Node.js, Express.js, MongoDB, Mongoose",
+    "ProjectDate":"MAR’20 - PRESENT"
+    
+},
+{
+    "ProjectName":"Picture Gram – Web Application",
+    "ProjectDescription":"Developed an emulation of Instagram on web that enables users to upload and share photos with their followers",
+    "ProjectDescription2":"Worked on REST, MongoDB, Mongoose to design and implement a robust Information Retrieval system",
+    "ProjectDate":"FEB 2020"
+},
+{
+    "ProjectName":"Farmer Peer – Web Application",
+    "ProjectDescription":"Created a web-based assistant for backyard farming based on current geoLocation using Bootstrap, jQuery, Ajax ",
+    "ProjectDescription2":"Integrated OpenWeather API and HarvestHelper API to recommend crops for a location based on weather and soil data. Utilized AgroMonitoring API to provide satellite image",
+    "ProjectDate":"JAN 2019"
+},
+{
+    "ProjectName":"Protein E-Commerce  – Web Application",
+    "ProjectDescription":"Created an emulation of e-commerce website that provides selling and buying of protein products.",
+    "ProjectDescription2":"Implemented MVC architecture using PHP, jQuery, Bootstrap, Ajax, MySQL",
+    "ProjectDate":"DEC’18 - JAN’19"
+},
+{
+    "ProjectName":"Everest E-Commerce – Web Application",
+    "ProjectDescription":"Created an emulation of e-commerce website that provides selling and buying of products.",
+    "ProjectDescription2":"Implemented using Function-Based Components from React,Node.js,Express.js,Mongo DB",
+    "ProjectDate":"PRESENT"
+}
+]
