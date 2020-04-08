@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div class="container">
-      <Route path={["/","/Home","/reactportfolio/"]} component={HomePage} />
+      <Route path={["/","/Home","/reactportfolio"]} component={HomePage} />
       <Route path="/Projects" component={Projects} />
       </div>
       <Footer />
