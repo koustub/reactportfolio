@@ -6,11 +6,11 @@ import Projects from './Components/Project';
 import Footer from './Components/footer';
 function App() {
   return (
-    <Router path='/reactportfolio' component={HomePage}>
+    <Router>
     <div className="App">
       <Navbar />
       <div class="container">
-      <Route exact path={["/","/Home","/reactportfolio/"]} component={HomePage} />
+      <Route path={["/","/Home","/reactportfolio/"]} component={HomePage} />
       <Route path="/Projects" component={Projects} />
       </div>
       <Footer />
