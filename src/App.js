@@ -6,7 +6,7 @@ import Projects from './Components/Project';
 import Footer from './Components/footer';
 function App() {
   return (
-    <Router>
+    <Router path='/reactportfolio' component={HomePage}>
     <div className="App">
       <Navbar />
       <div class="container">
