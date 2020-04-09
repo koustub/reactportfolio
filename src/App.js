@@ -6,11 +6,12 @@ import Projects from './Components/Project';
 import Footer from './Components/footer';
 function App() {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`} >
     <Navbar />
     <div className="App">
+
       <Route  path={["/","/Home"]} component={HomePage} />
-      <Route  path="/Project" component={Projects} />
+      <Route exact path="/Project" component={Projects} />
     </div>
     <Footer />
     </Router>
