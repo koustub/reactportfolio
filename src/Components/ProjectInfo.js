@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ProjectInfo(props) {
-    
+    console.log('Entering Project Info components');
     const projectCard = {
         margin:"20px",
         flex:1,
