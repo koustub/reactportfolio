@@ -6,7 +6,7 @@ import Projects from './Components/Project';
 import Footer from './Components/footer';
 function App() {
   return (
-    <Router basename={`${process.env.PUBLIC_URL}/`} >
+    <Router>
     <Navbar />
     <div className="App">
 
