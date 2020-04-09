@@ -9,9 +9,10 @@ function App() {
     <Router>
     <Navbar />
     <div className="App">
-
+      <div>
       <Route  exact path={["/","/Home","/reactportfolio"]} component={HomePage} />
       <Route exact path="/Project" component={Projects} />
+      </div>
     </div>
     <Footer />
     </Router>
