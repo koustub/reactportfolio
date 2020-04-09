@@ -7,14 +7,12 @@ import Footer from './Components/footer';
 function App() {
   return (
     <Router>
+    <Navbar />
     <div className="App">
-      <Navbar />
-      <div class="container">
       <Route exact path={["/","/Home"]} component={HomePage} />
-      <Route path="/Projects" component={Projects} />
-      </div>
-      <Footer />
+      <Route exact path="/Project" component={Projects} />
     </div>
+    <Footer />
     </Router>
   );
 }

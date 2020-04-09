@@ -13,12 +13,12 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-            <Link to="/Home" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/Home" className={location.pathname === "/Home" ? "nav-link active" : "nav-link"}>
               Home
             </Link>
              </li>
             <li class="nav-item active">
-            <Link to="/Projects" className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>
+            <Link to="/Project" className={location.pathname === "/Project" ? "nav-link active" : "nav-link"}>
               Projects
             </Link>
             </li>
